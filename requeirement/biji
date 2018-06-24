@@ -1,0 +1,21 @@
+ajax的几种写法:
+
+
+
+$.get(url, functions(msg){
+})
+
+$.post(url,data, functions(msg){
+})
+
+$(this).ajaxSubmit(){
+    url:'',
+    type:'',
+    datatype: '',
+    data: '',
+    header: '',
+    success: functions(msg){
+    },
+    error: functions(msg){
+    }
+}
